@@ -1,0 +1,19 @@
+.sf-pagination__item.current {
+  background: $grey-light;
+}
+
+.sf-pagination__item {
+  padding: 0.25rem 0.75rem;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.sf-button.sf-pagination__item {
+  padding: 0.25rem 0.75rem;
+  border-radius: 2px;
+}
+
+.sf-pagination__item:hover {
+  color: $black;
+  background: $light-teal;
+}

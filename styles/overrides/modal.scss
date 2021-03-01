@@ -1,0 +1,10 @@
+.sf-modal__overlay.sf-overlay {
+  --overlay-background: #00000033 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.sf-button.sf-button--pure.sf-modal__close {
+  --button-background: transparent;
+}

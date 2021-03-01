@@ -1,0 +1,17 @@
+.sf-button--pure.sf-color {
+  border-radius: 2em;
+  --color-size: 2em;
+  outline: none;
+  transition: none;
+
+  &:hover {
+    transform: none;
+  }
+
+  &:active {
+    border-width: 2px;
+    border-color: black;
+    transform: none;
+    transition: none;
+  }
+}
