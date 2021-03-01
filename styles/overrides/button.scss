@@ -1,0 +1,57 @@
+.sf-button {
+  --button-text-transform: capitalize;
+  font-family: $font-family-relative !important;
+
+  text-transform: capitalize;
+}
+.sf-button.color-secondary {
+  --c-secondary: #{$grey-medium};
+  --button-color: #{$black};
+}
+
+.sf-button.color-secondary:hover {
+  --c-secondary: #{$grey-light};
+  --c-secondary-variant: #{$grey-medium};
+}
+
+.sf-button.color-dark {
+  color: #fff;
+}
+.sf-button.color-dark:hover {
+  --c-dark: #{$grey-dark};
+  color: #fff;
+}
+
+.sf-button.color-outlined {
+  --c-primary: #fff;
+  --c-primary-variant: #{$grey-light};
+  --c-light-variant: #{$teal-primary};
+  box-shadow: inset 0 0 0 2px #{$teal-primary};
+  color: #{$teal-primary};
+}
+
+.sf-button.sf-menu-item.sf-button--pure {
+  --button-background: transparent;
+}
+
+.sf-button.sf-button--pure.sf-product-card__wishlist-icon {
+  --button-background: transparent;
+}
+.sf-button.sf-button--text {
+  --button-background: transparent;
+}
+
+.sf-button.sf-button--pure.sf-quantity-selector__button {
+  --button-background: transparent;
+}
+
+.sf-button.sf-button--pure.sf-tabs__title {
+  --button-border-radius: 0;
+}
+.sf-button.sf-button--pure.sf-header__action {
+  --button-background: transparent;
+}
+
+.sf-button.sf-button--pure.sf-accordion-item__header {
+  --button-background: transparent;
+}

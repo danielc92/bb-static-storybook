@@ -1,0 +1,77 @@
+@import "~@storefront-ui/vue/styles";
+
+@import "./colours";
+@import "./font";
+
+@import "./overrides/input.scss";
+@import "./overrides/modal";
+@import "./overrides/button";
+@import "./overrides/pagination";
+@import "./overrides/typography";
+@import "./overrides/arrow";
+@import "./overrides/color";
+@import "./overrides/select";
+@import "./overrides/heading";
+@import "./overrides/textarea";
+@import "./overrides/checkbox";
+
+/*
+override storefront ui variables here
+notes:
+  - with sass varibales need to use string interpolation
+  - #__nuxt used to override variables in WEBSITE
+  - #root used to override variables in STORYBOOK
+*/
+#__nuxt,
+#root {
+  --c-primary: #{$teal-primary};
+  --c-primary-variant: #{$teal-accessible};
+  --font-family--primary: #{$font-family-relative};
+  --font-family--secondary: #{$font-family-leroy};
+  --button-border-radius: 30px;
+  --input-font: #{$font-family-relative};
+  --input-label-font: #{$font-family-relative};
+  --textarea-label-font: #{$font-family-relative};
+  --textarea-font: #{$font-family-relative};
+  --select-label-font: #{$font-family-relative};
+}
+
+#layout {
+  box-sizing: border-box;
+  @include for-desktop {
+    max-width: 1240px;
+    margin: auto;
+  }
+}
+
+// Reset CSS
+html {
+  width: auto;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  color: var(--c-text);
+  font-size: var(--font-size--base);
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family--primary);
+}
+
+.sf-banner__subtitle {
+  font-family: var(--font-family--primary);
+}
+a {
+  text-decoration: none;
+  color: var(--c-link);
+  &:hover {
+    color: var(--c-link-hover);
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family--secondary);
+}

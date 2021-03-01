@@ -1,0 +1,22 @@
+.sf-button.sf-arrow--long {
+  --button-background: #{$teal-primary};
+  --icon-color: #fff;
+}
+.sf-button.sf-arrow--long:hover {
+  --button-background: #{$teal-accessible};
+  --icon-color: #fff;
+}
+
+.sf-button.sf-arrow {
+  --icon-color: #fff;
+  --button-background: #{$teal-primary};
+
+  &:hover {
+    --button-background: #{$teal-accessible};
+  }
+  &.sf-arrow--square {
+    border-radius: 0.2em;
+    --icon-color: #fff;
+    outline: none;
+  }
+}

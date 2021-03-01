@@ -1,0 +1,14 @@
+.sf-select__dropdown {
+  font-family: $font-family-relative;
+  font-size: var(--font-size-base);
+  color: #{$black};
+  height: 2.75rem;
+  .sf-select__option {
+    font-family: $font-family-relative;
+  }
+}
+.sf-select {
+  .sf-select__dropdown {
+    height: 2.75rem;
+  }
+}

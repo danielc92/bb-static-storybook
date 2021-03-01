@@ -1,0 +1,84 @@
+// improts
+
+@font-face {
+  font-family: "Leroy-Regular";
+  src: url("~/assets/fonts/BB-Leroy-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Leroy-Bold";
+  src: url("~/assets/fonts/BB-Leroy-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Relative-Bold";
+  src: url("~/assets/fonts/Relative-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Relative-Book";
+  src: url("~/assets/fonts/Relative-Book.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Relative-Medium";
+  src: url("~/assets/fonts/Relative-Medium.woff2") format("woff2");
+}
+
+// headings
+
+$font-size-h1-desktop: 36px;
+$font-size-h2-desktop: 32px;
+$font-size-h3-desktop: 28px;
+$font-size-h4-desktop: 24px;
+$font-size-h5-desktop: 20px;
+$font-size-h6-desktop: 16px;
+$font-weight-heading-desktop: 700;
+
+$font-size-h1-mobile: 29px;
+$font-size-h2-mobile: 27px;
+$font-size-h3-mobile: 25px;
+$font-size-h4-mobile: 22px;
+$font-size-h5-mobile: 19px;
+$font-size-h6-mobile: 16px;
+$font-weight-heading-mobile: 700;
+
+// body text
+$font-body-line-height: 1.6;
+$font-size-body-large-desktop: 20px;
+$font-size-body-medium-desktop: 18px;
+$font-size-body-small-desktop: 16px;
+
+$font-size-body-large-mobile: 18px;
+$font-size-body-medium-mobile: 16px;
+$font-size-body-small-mobile: 14px;
+
+// labels
+$font-size-label: 14px;
+
+// links
+$font-size-link-small: 14px;
+$font-size-link-medium: 16px;
+$font-size-link-large: 18px;
+
+// family
+$font-family-leroy: "Leroy-Regular", Helvetica, sans-serif;
+$font-family-relative: "Relative-Book", Helvetica, sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-leroy;
+}
+
+p,
+span,
+li,
+textarea,
+input,
+select,
+option,
+label,
+button,
+ol {
+  font-family: $font-family-relative;
+}

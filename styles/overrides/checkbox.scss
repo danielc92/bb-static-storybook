@@ -1,0 +1,20 @@
+.sf-checkbox.is-active {
+  --checkbox-background: #fff !important;
+}
+.sf-checkbox .sf-icon.color-white {
+  --c-white: #{$teal-primary};
+}
+
+.has-error .sf-checkbox__checkmark {
+  .sf-icon.color-white {
+    --c-white: var(--c-danger);
+  }
+}
+
+.has-error .sf-checkbox__checkmark {
+  --checkbox-background: #fff;
+}
+
+.has-error .sf-checkbox__checkmark.is-active {
+  --checkbox-background: #fff !important;
+}
